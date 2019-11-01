@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.caixa{
+	padding: 60px 0;
+	border: 1px solid #e5e5e5;
+
+}
+
+footer p a{
+	margin: 5px 15px;
+}
+footer a:hover{
+	color: green;
+}
+#nav-principal ul li a:hover{
+	color: white;
+}
