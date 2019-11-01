@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Museu Nacional</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<div id="container"> <!-- inicio Container -->
+		<header> <!-- Inicio do Header -->
+			<div id="logo">
+				<h1><a href="">Museu Nacional</a></h1>
+			</div>
+
+			<nav> <!-- inicio da barra de navegação -->
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Exposições</a></li>
+					<li><a href="#">Pesquisa</a></li>
+					<li><a href="#">Acervo</a></li>
+					<li><a href="#">Vídeos</a></li>
+					<li><a href="#">Fotos</a></li>
+					<li><a href="#">Contato</a></li>
+
+				</ul>
+			</nav> <!-- Fim da barra de navegação -->
+			
+		</header><!-- fim do Header -->
+
+		<div id="principal"> <!-- Inicio do Principal -->
+			<div id="conteudo">
+				<section id="capa">
+					<img src="imagens/museu.png">
+				</section>
+
+				<section id="postagens">
+					<article id="video">
+						<h3>Vídeo Conheça o museu:</h3>
+						<iframe width="310" height="270" src="https://www.youtube-nocookie.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</article>
+
+					<article id="mapa">
+						<h3>Mapa : encontre o museu</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.2265289!3d-22.90576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1570654280221!5m2!1spt-BR!2sbr" width="310" height="270" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</article>
+
+					<article id="exposicoes">
+						<h3>Exposições:</h3>
+						<ul>
+							<li>
+								<a href="">Os assustadores insetos</a>
+							</li>
+							<li>
+								<a href="">O crânio de Luzia, a mulher mais antiga do Brasil</a>
+							</li>
+							<li>
+								<a href="">preguiça gigante e tigre-dentes-de-sabre</a>
+							</li>
+							<li>
+								<a href="">Plantas do Brasil Central</a>
+							</li>
+							<li>
+								<a href=""><strong>Veja tpdps (65)</strong></a>
+							</li>
+
+						</ul>
+					</article>
+					<article id="historia">
+						<h3>200 anos de história</h3>
+						<p>
+							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+						</p>
+						<a href=""><strong>Leia mais</strong></a>
+					</article>
+				</section>
+			</div>
+
+
+
+			<aside> <!-- Inicio da barra lateral -->
+				<section id="depoimento">
+					<img src="imagens/depoimento.png">
+				</section>
+				<section id="visita"> <!-- Inicio da Seção Visita -->
+					<h4>Faça uma visita</h4>
+					<form>
+						<fieldset>
+							<legend>Selecione uma data</legend>
+
+							<label for="data">data</label>
+							<input class="campo" type="date" id="data" value="">
+
+							<label for="qtd">Quantidade de Pessoas</label>
+							<input class="campo" style="width: 40px;" type="number" id="qtd" value="1">
+
+						</fieldset>
+
+						<input class="botao" type="submit" value="Verificar Disponibilidade">
+					</form>
+				</section><!-- Fim fa Seção Visita -->
+				<section id="galeria"> <!-- inicio da galeria de fotos -->
+					<h4>Galeria de Fotos</h4>
+					<a href="">
+						<img src="imagens/imagem1.jpg" height="93" width="93">
+					</a>
+					<a href="">
+						<img src="imagens/imagem2.jpg" height="93" width="93">
+					</a>
+					<a href="">
+						<img src="imagens/imagem3.jpg" height="93" width="93">
+					</a>
+					<a href="">
+						<img src="imagens/imagem4.jpg" height="93" width="93">
+					</a>
+					<a href="">
+						<img src="imagens/imagem5.jpg" height="93" width="93">
+					</a>
+					<a href="">
+						<img src="imagens/imagem6.jpg" height="93" width="93">
+					</a>
+				</section> <!-- Fim da galeria de fotos -->
+
+
+			</aside><!-- Fim da Barra lateral -->
+			<footer style="clear: both;">
+				conteudo
+			</footer>	
+		</div><!-- Fim do Principal -->
+
+		
+
+	</div> <!-- fim do Container -->
+</body>
+</html>

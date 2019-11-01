@@ -1,0 +1,208 @@
+/************ Estrutura do Site ************/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #f4f2ec url(../imagens/fundo.png) repeat-x; /* repete o backgroud no eixo horizontal */
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif; /* define o tamanho e o tipo de fonte */
+}
+
+a:link, a:active, a:visited{
+	color: #af670a;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #227115;
+}
+
+#container{
+	width: 1080px; /* define a largura do container */
+	margin: 0 auto; /* centraliza o conteudo */
+
+}
+
+/****** Configuração do Logo *******/
+#logo h1{
+	float: left;
+}
+
+
+#logo a{
+	width: 248px; /* largura do logo */
+	height: 21px; /* altura do logo */
+	text-indent: -9999px; /* tirar o texto da area de visualização */
+	display: block; /* para q ele seja um elemento em bloco */
+	background: url(../imagens/logo.png) no-repeat;
+}
+
+
+/******** Barra de Navegação **********/
+
+header{
+	padding: 15px 0; /* espaçamento interno superior e inferior | laterais */
+	height: 55px;
+
+}
+
+nav ul{
+	list-style: none; /* tirar o ponto do texto */
+	margin: 20px;
+	float: right; /* flutuar o elemento */
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a:link{
+	font-size: 15px;
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase; /* transformar o texto em maiusculo */
+}
+
+nav ul li a:hover{
+	border-bottom: 1px solid #535858;
+}
+
+/***** Conteudo Principal ***/
+
+#conteudo{
+	width: 710px;
+	float: left;
+	
+}
+
+aside{
+	width: 350px;
+	float: right;
+
+}
+
+section#visita{
+	background: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
+}
+
+h4{
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+
+}
+h3{
+	color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	
+}
+
+/***** Configuraçãp dos Article *****/
+
+article{
+	margin-top: 10px;
+}
+article#video{
+	float: left;
+	width: 310px;
+	margin-left: 25px;
+	
+			
+}
+
+article#mapa{
+	
+	float: left;
+	width: 310px;
+	margin-left: 37px;
+}
+article#exposicoes{
+	
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 25px;
+	
+}
+article#historia{
+	
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 37px;
+}
+
+
+
+
+/********* Formulario **************/
+
+
+input{
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	border: none; /* remover a borda padrão*/
+	font-size: 1em;
+}
+
+input.campo{
+	border: 1px solid #ada484;
+	margin-bottom: 10px
+}
+
+input.botao{
+	background: #9b9271;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+input.botao:hover{
+	color: black;
+}
+fieldset{
+	border: none;
+
+}
+
+legend{
+	display: none;
+}
+
+/***** Galeria de Fotos ********/
+
+
+section#galeria{
+
+	background: #cdc8b1;
+	margin-top: 20px;
+	padding: 10px 30px;
+	float: left;
+
+
+
+}
+
+
+section#galeria a{
+	display: block;
+	background: url(../imagens/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+footer{
+	padding: 20px 0 30px 0;
+}
